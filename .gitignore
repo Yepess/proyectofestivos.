@@ -1,0 +1,38 @@
+# Ignorar archivos de configuración de usuario
+.bash_history
+.gitconfig
+.lesshst
+NTUSER.DAT
+NTUSER.DAT*
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+# Ignorar directorios de configuración y temporales
+AppData/
+Configuración local/
+Cookies/
+Datos de programa/
+Entorno de red/
+Impresoras/
+Menú Inicio/
+Mis documentos/
+Plantillas/
+Reciente/
+SendTo/
+Contacts/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+
+# Ignorar directorios específicos de herramientas
+.dotnet/
+.nuget/
+.templateengine/
+.vscode/
