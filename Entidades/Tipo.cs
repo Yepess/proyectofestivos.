@@ -14,6 +14,6 @@ namespace ProyectoFestivos.Dominio.Entidades
         [Column("Tipo"), StringLength(100)]
         public required string Nombre { get; set; }
 
-        public ICollection<Festivo> Festivos { get; set; }
+        public ICollection<Festivo> Festivos { get; set; } //relacion uno a muchos con Festivos 
     }
 }

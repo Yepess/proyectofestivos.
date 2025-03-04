@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj": {}
+    "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj": {
+    "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj",
         "projectName": "ProyectoFestivos.Dominio",
-        "projectPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj",
+        "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj",
         "packagesPath": "C:\\Users\\vamag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\obj\\",
+        "outputPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vamag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

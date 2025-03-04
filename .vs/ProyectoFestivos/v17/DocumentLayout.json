@@ -35,7 +35,7 @@
               "RelativeDocumentMoniker": "..\\ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
               "ToolTip": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
               "RelativeToolTip": "..\\ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T18:23:07.558Z",
               "EditorCaption": ""
@@ -48,10 +48,9 @@
               "RelativeDocumentMoniker": "Entidades\\Festivo.cs",
               "ToolTip": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\Entidades\\Festivo.cs",
               "RelativeToolTip": "Entidades\\Festivo.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowBoAAAAiAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T16:07:42.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T16:07:42.074Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "Entidades\\Tipo.cs",
               "ToolTip": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\Entidades\\Tipo.cs",
               "RelativeToolTip": "Entidades\\Tipo.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABAAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T16:07:19.16Z",
               "EditorCaption": ""
