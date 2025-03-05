@@ -1,0 +1,6 @@
+C:\Users\vamag\source\repos\ProyectoFestivos\ProyectoFestivos.Persistencia\obj\Debug\net8.0\ProyectoFestivos.Persistencia.csproj.AssemblyReference.cache
+C:\Users\vamag\source\repos\ProyectoFestivos\ProyectoFestivos.Persistencia\obj\Debug\net8.0\ProyectoFestivos.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vamag\source\repos\ProyectoFestivos\ProyectoFestivos.Persistencia\obj\Debug\net8.0\ProyectoFestivos.Persistencia.AssemblyInfoInputs.cache
+C:\Users\vamag\source\repos\ProyectoFestivos\ProyectoFestivos.Persistencia\obj\Debug\net8.0\ProyectoFestivos.Persistencia.AssemblyInfo.cs
+C:\Users\vamag\source\repos\ProyectoFestivos\ProyectoFestivos.Persistencia\obj\Debug\net8.0\ProyectoFestivos.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\vamag\source\repos\ProyectoFestivos\ProyectoFestivos.Persistencia\obj\Debug\net8.0\ProyectoFestivos.Persistencia.sourcelink.json
