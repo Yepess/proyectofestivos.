@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ProyectoFestivos.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProyectoFestivos.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoFestivos.Dominio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ProyectoFestivos.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoFestivos.Dominio/ProyectoFestivos.Dominio.csproj",
+      "msbuildProject": "../ProyectoFestivos.Dominio/ProyectoFestivos.Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ProyectoFestivos.Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vamag\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj",
-      "projectName": "ProyectoFestivos.Dominio",
-      "projectPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
+      "projectName": "ProyectoFestivos.CORE",
+      "projectPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
       "packagesPath": "C:\\Users\\vamag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vamag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

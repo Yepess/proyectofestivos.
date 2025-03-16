@@ -16,7 +16,7 @@ namespace ProyectoFestivos.Persistencia.Contexto
 
         void onModelCreating(ModelBuilder modelBuilder)
         {
-            // Configuración de Tipo
+            
             modelBuilder.Entity<Tipo>(entidad =>
             {
                 entidad.HasKey(e => e.Id);
@@ -30,7 +30,7 @@ namespace ProyectoFestivos.Persistencia.Contexto
                     .OnDelete(DeleteBehavior.Cascade);
             });
 
-            // Configuración de Festivo
+           
             modelBuilder.Entity<Festivo>(entidad =>
             {
                 entidad.HasKey(e => e.Id);

@@ -599,12 +599,13 @@
     },
     "ProyectoFestivos.Dominio/1.0.0": {
       "type": "project",
-      "path": "../ProyectoFestivos/ProyectoFestivos.Dominio.csproj",
-      "msbuildProject": "../ProyectoFestivos/ProyectoFestivos.Dominio.csproj"
+      "path": "../ProyectoFestivos.Dominio/ProyectoFestivos.Dominio.csproj",
+      "msbuildProject": "../ProyectoFestivos.Dominio/ProyectoFestivos.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj",
       "Microsoft.EntityFrameworkCore >= 9.0.2",
       "ProyectoFestivos.Dominio >= 1.0.0"
     ]
@@ -615,11 +616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
       "projectName": "ProyectoFestivos.Persistencia",
-      "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
+      "projectPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
       "packagesPath": "C:\\Users\\vamag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos.Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vamag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -636,8 +637,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj": {
-              "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj"
+            "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+            },
+            "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj"
             }
           }
         }
@@ -678,8 +682,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

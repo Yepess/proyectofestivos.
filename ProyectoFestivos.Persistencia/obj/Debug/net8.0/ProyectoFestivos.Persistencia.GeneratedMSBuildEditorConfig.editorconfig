@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoFestivos.Persistencia
-build_property.ProjectDir = C:\Users\vamag\source\repos\ProyectoFestivos\ProyectoFestivos.Persistencia\
+build_property.ProjectDir = C:\Users\vamag\Source\Repos\ProyectoFestivos\ProyectoFestivos.Persistencia\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

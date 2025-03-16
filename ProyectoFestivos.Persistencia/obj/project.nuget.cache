@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4B+hMDA/SZEr7BX00x4EfgFWz7yOmzbzSFM09MvZtjWHQ6gClJHJQe+PXDzsfb90orzbxqgkaCG3Jqx0h7bakg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
+  "dgSpecHash": "usWpOt6pMB7DOBvXlEQFI3ehxEk2DSLNSibcUBNFsFGfy542Abk0LT421zV1pWWd5hJ3hVTAZtk0vTpy42bcag==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vamag\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.2\\microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "C:\\Users\\vamag\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.2\\microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
@@ -17,5 +17,15 @@
     "C:\\Users\\vamag\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.2\\microsoft.extensions.primitives.9.0.2.nupkg.sha512",
     "C:\\Users\\vamag\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.2\\system.diagnostics.diagnosticsource.9.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\vamag\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos\\ProyectoFestivos.Dominio.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
