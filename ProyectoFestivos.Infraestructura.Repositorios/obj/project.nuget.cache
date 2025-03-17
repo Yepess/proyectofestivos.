@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ESS2uuz4bY8=",
+  "dgSpecHash": "DYSmterjpSw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.2\\microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.2\\microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
