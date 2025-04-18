@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ProyectoFestivos.CORE\ProyectoFestivos.CORE.csproj" />
     <ProjectReference Include="..\ProyectoFestivos.Dominio\ProyectoFestivos.Dominio.csproj" />
-    <ProjectReference Include="..\ProyectoFestivos.Persistencia\ProyectoFestivos.Persistencia.csproj" />
+    <ProjectReference Include="..\ProyectoFestivos.Persistencia\ProyectoFestivos.Infraestructura.Persistencia.csproj" />
   </ItemGroup>
 
 </Project>

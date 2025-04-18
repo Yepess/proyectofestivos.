@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoFestivos.CORE.Servicios
 {
-    internal interface ITipoServicio
+    public interface ITipoServicio
     {
         Task<IEnumerable<Tipo>> ObtenerTodos();
 

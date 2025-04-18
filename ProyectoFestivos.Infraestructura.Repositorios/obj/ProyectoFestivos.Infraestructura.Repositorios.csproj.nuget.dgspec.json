@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj": {}
+    "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj": {
+    "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
+        "projectUniqueName": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
         "projectName": "ProyectoFestivos.CORE",
-        "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\obj\\",
+        "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
+        "packagesPath": "C:\\Users\\vamag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vamag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+              "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
               }
             }
           }
@@ -48,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -70,25 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+    "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj",
         "projectName": "ProyectoFestivos.Dominio",
-        "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj",
+        "packagesPath": "C:\\Users\\vamag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vamag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,7 +86,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,8 +103,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -136,25 +124,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj": {
+    "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj",
+        "projectUniqueName": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj",
         "projectName": "ProyectoFestivos.Infraestructura.Repositorios",
-        "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\obj\\",
+        "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj",
+        "packagesPath": "C:\\Users\\vamag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vamag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,21 +146,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj"
+              "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj": {
+                "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj"
               },
-              "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+              "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
               },
-              "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj"
+              "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj"
               }
             }
           }
@@ -190,12 +173,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -212,25 +200,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj": {
+    "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
-        "projectName": "ProyectoFestivos.Persistencia",
-        "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\obj\\",
+        "projectUniqueName": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj",
+        "projectName": "ProyectoFestivos.Infraestructura.Persistencia",
+        "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\vamag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vamag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -238,15 +222,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+              "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\vamag\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
               }
             }
           }
@@ -260,8 +243,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -288,7 +270,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

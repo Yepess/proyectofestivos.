@@ -1,67 +1,59 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using ProyectoFestivos.CORE.Repositorios;
 using ProyectoFestivos.Dominio.Entidades;
 using ProyectoFestivos.Persistencia.Contexto;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ProyectoFestivos.Infraestructura.Repositorios
 {
-    public class FestivoRepositorio : IFestivoRepositorio
+    public class TipoRepositorio : ITipoRepositorio
     {
         private readonly FestivosContext _contexto;
 
-        public FestivoRepositorio(FestivosContext contexto)
+        public TipoRepositorio(FestivosContext contexto)
         {
             _contexto = contexto;
         }
 
-        public async Task<IEnumerable<Festivo>> ObtenerTodos()
+        public async Task<IEnumerable<Tipo>> ObtenerTodos()
         {
-            return await _contexto.Festivos.Include(f => f.Tipo).ToListAsync();
+            return await _contexto.Tipos.ToListAsync();
         }
 
-        public async Task<Festivo> Obtener(int Id)
+        public async Task<Tipo> Obtener(int id)
         {
-            return await _contexto.Festivos.Include(f => f.Tipo).FirstOrDefaultAsync(f => f.Id == Id);
+            return await _contexto.Tipos.FindAsync(id);
         }
 
-        public async Task<Festivo> Agregar(Festivo festivo)
+        public async Task<Tipo> Agregar(Tipo tipo)
         {
-            _contexto.Festivos.Add(festivo);
+            _contexto.Tipos.Add(tipo);
             await _contexto.SaveChangesAsync();
-            return festivo;
+            return tipo;
         }
 
-        public async Task<Festivo> Modificar(Festivo festivo)
+        public async Task<Tipo> Modificar(Tipo tipo)
         {
-            _contexto.Festivos.Update(festivo);
+            _contexto.Tipos.Update(tipo);
             await _contexto.SaveChangesAsync();
-            return festivo;
+            return tipo;
         }
 
-        public async Task<bool> Eliminar(int Id)
+        public async Task<bool> Eliminar(int id)
         {
-            var festivo = await Obtener(Id);
-            if (festivo == null) return false;
+            var tipo = await Obtener(id);
+            if (tipo == null) return false;
 
-            _contexto.Festivos.Remove(festivo);
+            _contexto.Tipos.Remove(tipo);
             await _contexto.SaveChangesAsync();
             return true;
         }
 
-        public async Task<IEnumerable<Festivo>> Buscar(int Tipo, string Dato)
+        public async Task<IEnumerable<Tipo>> Buscar(int tipoId, string dato)
         {
-            return await _contexto.Festivos
-                .Where(f => f.IdTipo == Tipo && f.Nombre.Contains(Dato))
+            return await _contexto.Tipos
+                .Where(t => t.Id == tipoId && t.Nombre.Contains(dato))
                 .ToListAsync();
         }
     }
 }
+
