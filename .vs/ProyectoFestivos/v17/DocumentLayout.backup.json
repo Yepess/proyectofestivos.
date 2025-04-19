@@ -1,30 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\",
+  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44E61EA9-A33E-482C-8410-C5B5E7CF8D81}|ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj|c:\\users\\acer\\source\\repos\\proyectofestivos\\proyectofestivos.dominio\\entidades\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44E61EA9-A33E-482C-8410-C5B5E7CF8D81}|ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj|solutionrelative:proyectofestivos.dominio\\entidades\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Infraestructura.Repositorios\\FestivosRepositorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.Infraestructura.Repositorios\\FestivosRepositorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0C667E1-0F70-4E0B-91C8-C9C57798EF53}|ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj|c:\\users\\acer\\source\\repos\\proyectofestivos\\proyectofestivos.core\\repositorios\\itiporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0C667E1-0F70-4E0B-91C8-C9C57798EF53}|ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj|solutionrelative:proyectofestivos.core\\repositorios\\itiporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0C667E1-0F70-4E0B-91C8-C9C57798EF53}|ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj|c:\\users\\acer\\source\\repos\\proyectofestivos\\proyectofestivos.core\\servicios\\itiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0C667E1-0F70-4E0B-91C8-C9C57798EF53}|ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj|solutionrelative:proyectofestivos.core\\servicios\\itiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\ProyectoFestivos.Presentacion.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\ProyectoFestivos.Presentacion.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0C667E1-0F70-4E0B-91C8-C9C57798EF53}|ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj|c:\\users\\acer\\source\\repos\\proyectofestivos\\proyectofestivos.core\\repositorios\\ifestivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0C667E1-0F70-4E0B-91C8-C9C57798EF53}|ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj|solutionrelative:proyectofestivos.core\\repositorios\\ifestivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\DI\\InyeccionDependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\DI\\InyeccionDependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44E61EA9-A33E-482C-8410-C5B5E7CF8D81}|ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj|c:\\users\\acer\\source\\repos\\proyectofestivos\\proyectofestivos.dominio\\entidades\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44E61EA9-A33E-482C-8410-C5B5E7CF8D81}|ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj|solutionrelative:proyectofestivos.dominio\\entidades\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0745993-2346-4FD9-9E60-1FFA8653402F}|ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj|c:\\users\\acer\\source\\repos\\proyectofestivos\\proyectofestivos.persistencia\\contexto\\proyectofestivoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0745993-2346-4FD9-9E60-1FFA8653402F}|ProyectoFestivos.Persistencia\\ProyectoFestivos.Persistencia.csproj|solutionrelative:proyectofestivos.persistencia\\contexto\\proyectofestivoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Infraestructura.Repositorios\\TipoRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.Infraestructura.Repositorios\\TipoRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\TipoControlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Controllers\\TipoControlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\FestivoControlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Controllers\\FestivoControlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Aplicacion\\Servicios\\FestivoServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.Aplicacion\\Servicios\\FestivoServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Aplicacion\\Servicios\\TipoServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.Aplicacion\\Servicios\\TipoServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Servicios\\IFestivoServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.CORE\\Servicios\\IFestivoServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Dominio\\Entidades\\Festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.Dominio\\Entidades\\Festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Dominio\\Entidades\\Tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.Dominio\\Entidades\\Tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,89 +94,267 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITipoServicio.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs",
-              "RelativeDocumentMoniker": "ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs",
-              "RelativeToolTip": "ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:11:18.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ITipoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs",
-              "RelativeDocumentMoniker": "ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs*",
-              "RelativeToolTip": "ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:08:26.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IFestivoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs",
-              "RelativeDocumentMoniker": "ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs",
-              "RelativeToolTip": "ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:07:31.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProyectoFestivosContext.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
-              "RelativeDocumentMoniker": "ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
-              "RelativeToolTip": "ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T18:25:58.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tipo.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\Entidades\\Tipo.cs",
-              "RelativeDocumentMoniker": "ProyectoFestivos.Dominio\\Entidades\\Tipo.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\Entidades\\Tipo.cs*",
-              "RelativeToolTip": "ProyectoFestivos.Dominio\\Entidades\\Tipo.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T18:25:44.438Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Festivo.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\Entidades\\Festivo.cs",
-              "RelativeDocumentMoniker": "ProyectoFestivos.Dominio\\Entidades\\Festivo.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\Entidades\\Festivo.cs",
-              "RelativeToolTip": "ProyectoFestivos.Dominio\\Entidades\\Festivo.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Title": "FestivosRepositorios.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Infraestructura.Repositorios\\FestivosRepositorios.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.Infraestructura.Repositorios\\FestivosRepositorios.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Infraestructura.Repositorios\\FestivosRepositorios.cs",
+              "RelativeToolTip": "ProyectoFestivos.Infraestructura.Repositorios\\FestivosRepositorios.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T18:25:40.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T23:11:08.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T01:29:31.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProyectoFestivos.Presentacion.http",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\ProyectoFestivos.Presentacion.http",
+              "RelativeDocumentMoniker": "WebApplication1\\ProyectoFestivos.Presentacion.http",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\ProyectoFestivos.Presentacion.http",
+              "RelativeToolTip": "WebApplication1\\ProyectoFestivos.Presentacion.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-18T01:43:32.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InyeccionDependencias.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\DI\\InyeccionDependencias.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DI\\InyeccionDependencias.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\DI\\InyeccionDependencias.cs",
+              "RelativeToolTip": "WebApplication1\\DI\\InyeccionDependencias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T01:33:36.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T01:30:59.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TipoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Infraestructura.Repositorios\\TipoRepositorio.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.Infraestructura.Repositorios\\TipoRepositorio.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Infraestructura.Repositorios\\TipoRepositorio.cs",
+              "RelativeToolTip": "ProyectoFestivos.Infraestructura.Repositorios\\TipoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T03:35:21.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoControlador.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\TipoControlador.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TipoControlador.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\TipoControlador.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\TipoControlador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T01:24:59.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T01:22:07.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T01:45:56.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FestivoControlador.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\FestivoControlador.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\FestivoControlador.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Controllers\\FestivoControlador.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\FestivoControlador.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAEAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T01:24:26.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T01:20:15.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FestivoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Aplicacion\\Servicios\\FestivoServicio.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.Aplicacion\\Servicios\\FestivoServicio.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Aplicacion\\Servicios\\FestivoServicio.cs",
+              "RelativeToolTip": "ProyectoFestivos.Aplicacion\\Servicios\\FestivoServicio.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T01:56:57.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TipoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Aplicacion\\Servicios\\TipoServicio.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.Aplicacion\\Servicios\\TipoServicio.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Aplicacion\\Servicios\\TipoServicio.cs",
+              "RelativeToolTip": "ProyectoFestivos.Aplicacion\\Servicios\\TipoServicio.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T01:57:09.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IFestivoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Servicios\\IFestivoServicio.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.CORE\\Servicios\\IFestivoServicio.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Servicios\\IFestivoServicio.cs",
+              "RelativeToolTip": "ProyectoFestivos.CORE\\Servicios\\IFestivoServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T02:09:27.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITipoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs",
+              "RelativeToolTip": "ProyectoFestivos.CORE\\Servicios\\ITipoServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:11:18.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\WebApplication1\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T01:43:07.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ITipoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs",
+              "RelativeToolTip": "ProyectoFestivos.CORE\\Repositorios\\ITipoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:08:26.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Festivo.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Dominio\\Entidades\\Festivo.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.Dominio\\Entidades\\Festivo.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Dominio\\Entidades\\Festivo.cs",
+              "RelativeToolTip": "ProyectoFestivos.Dominio\\Entidades\\Festivo.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:25:40.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Tipo.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Dominio\\Entidades\\Tipo.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.Dominio\\Entidades\\Tipo.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Dominio\\Entidades\\Tipo.cs",
+              "RelativeToolTip": "ProyectoFestivos.Dominio\\Entidades\\Tipo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:25:44.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProyectoFestivosContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
+              "RelativeToolTip": "ProyectoFestivos.Persistencia\\Contexto\\ProyectoFestivosContext.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAC0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:25:58.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IFestivoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs",
+              "RelativeDocumentMoniker": "ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\proyectofestivos\\ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs",
+              "RelativeToolTip": "ProyectoFestivos.CORE\\Repositorios\\IFestivoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:07:31.465Z"
             }
           ]
         }

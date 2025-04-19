@@ -1,8 +1,6 @@
 ﻿using ProyectoFestivos.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ProyectoFestivos.CORE.Servicios
@@ -20,4 +18,8 @@ namespace ProyectoFestivos.CORE.Servicios
         Task<bool> Eliminar(int Id);
 
         Task<IEnumerable<Festivo>> Buscar(int Tipo, string Dato);
+
+        Task<bool> ValidarFestivo(DateTime fecha); // se agrego esta linea para la validacion de las fechas 
     }
+}
+

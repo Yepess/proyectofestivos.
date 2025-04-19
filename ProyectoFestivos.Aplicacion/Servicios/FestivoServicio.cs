@@ -4,48 +4,84 @@ using ProyectoFestivos.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoFestivos.Aplicacion.Servicios
+namespace ProyectoFestivos.Aplicacion
 {
     public class FestivoServicio : IFestivoServicio
     {
-        private readonly IFestivoRepositorio _repositorio;
+        private readonly IFestivoRepositorio repositorio;
 
         public FestivoServicio(IFestivoRepositorio repositorio)
         {
-            _repositorio = repositorio;
+            this.repositorio = repositorio;
         }
 
-        public Task<IEnumerable<Festivo>> ObtenerTodos()
+        public async Task<Festivo> Agregar(Festivo festivo)
         {
-            return _repositorio.ObtenerTodos();
+            return await repositorio.Agregar(festivo);
         }
 
-        public Task<Festivo> Obtener(int Id)
+        public async Task<IEnumerable<Festivo>> Buscar(int Tipo, string Dato)
         {
-            return _repositorio.Obtener(Id);
+            return await repositorio.Buscar(Tipo, Dato);
         }
 
-        public Task<Festivo> Agregar(Festivo festivo)
+        public async Task<bool> Eliminar(int Id)
         {
-            return _repositorio.Agregar(festivo);
+            return await repositorio.Eliminar(Id);
         }
 
-        public Task<Festivo> Modificar(Festivo festivo)
+        public async Task<Festivo> Modificar(Festivo festivo)
         {
-            return _repositorio.Modificar(festivo);
+            return await repositorio.Modificar(festivo);
         }
 
-        public Task<bool> Eliminar(int Id)
+        public async Task<Festivo> Obtener(int Id)
         {
-            return _repositorio.Eliminar(Id);
+            return await repositorio.Obtener(Id);
         }
 
-        public Task<IEnumerable<Festivo>> Buscar(int Tipo, string Dato)
+        public async Task<IEnumerable<Festivo>> ObtenerTodos()
         {
-            return _repositorio.Buscar(Tipo, Dato);
+            return await repositorio.ObtenerTodos();
+        }
+
+        public async Task<bool> ValidarFestivo(DateTime fecha)
+        {
+            var festivos = await repositorio.ObtenerTodos();
+
+            // Validar por día y mes
+            bool esFestivoFijo = festivos.Any(f => f.Dia == fecha.Day && f.Mes == fecha.Month);
+
+            // Validar si es festivo relativo a Pascua
+            DateTime pascua = CalcularPascua(fecha.Year);
+            bool esFestivoRelativo = festivos
+                .Where(f => f.DiasPascua != 0)
+                .Any(f => pascua.AddDays(f.DiasPascua).Date == fecha.Date);
+
+            return esFestivoFijo || esFestivoRelativo;
+        }
+
+        private DateTime CalcularPascua(int year)
+        {
+            // Algoritmo de cálculo de dias de pascua
+            int a = year % 19;
+            int b = year / 100;
+            int c = year % 100;
+            int d = b / 4;
+            int e = b % 4;
+            int f = (b + 8) / 25;
+            int g = (b - f + 1) / 3;
+            int h = (19 * a + b - d - g + 15) % 30;
+            int i = c / 4;
+            int k = c % 4;
+            int l = (32 + 2 * e + 2 * i - h - k) % 7;
+            int m = (a + 11 * h + 22 * l) / 451;
+            int month = (h + l - 7 * m + 114) / 31;
+            int day = ((h + l - 7 * m + 114) % 31) + 1;
+
+            return new DateTime(year, month, day);
         }
     }
 }
