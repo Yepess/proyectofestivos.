@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
       "projectName": "ProyectoFestivos.CORE",
-      "projectPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
+      "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\ProyectoFestivos.CORE.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.CORE\\obj\\",
+      "outputPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.CORE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
-              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+            "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
             }
           }
         }

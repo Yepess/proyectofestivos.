@@ -1,51 +1,46 @@
 ﻿using ProyectoFestivos.CORE.Repositorios;
 using ProyectoFestivos.CORE.Servicios;
 using ProyectoFestivos.Dominio.Entidades;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ProyectoFestivos.Aplicacion.Servicios
+namespace ProyectoFestivos.Aplicacion
 {
     public class TipoServicio : ITipoServicio
     {
-        private readonly ITipoRepositorio _repositorio;
+        private readonly ITipoRepositorio repositorio;
 
         public TipoServicio(ITipoRepositorio repositorio)
         {
-            _repositorio = repositorio;
+            this.repositorio = repositorio;
         }
 
-        public Task<IEnumerable<Tipo>> ObtenerTodos()
+        public async Task<IEnumerable<Tipo>> ObtenerTodos()
         {
-            return _repositorio.ObtenerTodos();
+            return await repositorio.ObtenerTodos();
         }
 
-        public Task<Tipo> Obtener(int Id)
+        public async Task<Tipo> Obtener(int id)
         {
-            return _repositorio.Obtener(Id);
+            return await repositorio.Obtener(id);
         }
 
-        public Task<Tipo> Agregar(Tipo tipo)
+        public async Task<Tipo> Agregar(Tipo tipo)
         {
-            return _repositorio.Agregar(tipo);
+            return await repositorio.Agregar(tipo);
         }
 
-        public Task<Tipo> Modificar(Tipo tipo)
+        public async Task<Tipo> Modificar(Tipo tipo)
         {
-            return _repositorio.Modificar(tipo);
+            return await repositorio.Modificar(tipo);
         }
 
-        public Task<bool> Eliminar(int Id)
+        public async Task<bool> Eliminar(int id)
         {
-            return _repositorio.Eliminar(Id);
+            return await repositorio.Eliminar(id);
         }
 
-        public Task<IEnumerable<Tipo>> Buscar(int Tipo, string Dato)
+        public async Task<IEnumerable<Tipo>> Buscar(int tipo, string dato)
         {
-            return _repositorio.Buscar(Tipo, Dato);
+            return await repositorio.Buscar(tipo, dato);
         }
     }
 }

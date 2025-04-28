@@ -1,89 +1,54 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProyectoFestivos.CORE.Repositorios;
+using ProyectoFestivos.CORE.Servicios;
 using ProyectoFestivos.Dominio.Entidades;
 
-namespace ProyectoFestivos.Presentacion.Controllers
+namespace ProyectoFestivos.API.Controllers
 {
-    public class TipoControlador
+    [ApiController]
+    [Route("api/[controller]")]
+    public class TiposController : ControllerBase
     {
-        public class TipoController : Controller
+        private readonly ITipoServicio servicio;
+
+        public TiposController(ITipoServicio servicio)
         {
-            private readonly ITipoRepositorio _repositorio;
+            this.servicio = servicio;
+        }
 
-            public TipoController(ITipoRepositorio repositorio)
-            {
-                _repositorio = repositorio;
-            }
+        [HttpGet]
+        public async Task<IEnumerable<Tipo>> ObtenerTodos()
+        {
+            return await servicio.ObtenerTodos();
+        }
 
-            // GET: /Tipo/
-            public async Task<IActionResult> Index()
-            {
-                var tipos = await _repositorio.ObtenerTodos();
-                return View(tipos);
-            }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Tipo>> Obtener(int id)
+        {
+            var tipo = await servicio.Obtener(id);
+            if (tipo == null) return NotFound();
+            return tipo;
+        }
 
-            // GET: /Tipo/Create
-            public IActionResult Create()
-            {
-                return View();
-            }
+        [HttpPost]
+        public async Task<ActionResult<Tipo>> Agregar(Tipo tipo)
+        {
+            var nuevoTipo = await servicio.Agregar(tipo);
+            return CreatedAtAction(nameof(Obtener), new { id = nuevoTipo.Id }, nuevoTipo);
+        }
 
-            // POST: /Tipo/Create
-            [HttpPost]
-            [ValidateAntiForgeryToken]
-            public async Task<IActionResult> Create(Tipo tipo)
-            {
-                if (ModelState.IsValid)
-                {
-                    await _repositorio.Agregar(tipo);
-                    return RedirectToAction(nameof(Index));
-                }
-                return View(tipo);
-            }
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Modificar(int id, Tipo tipo)
+        {
+            if (id != tipo.Id) return BadRequest();
+            await servicio.Modificar(tipo);
+            return NoContent();
+        }
 
-            // GET: /Tipo/Edit/5
-            public async Task<IActionResult> Edit(int id)
-            {
-                var tipo = await _repositorio.Obtener(id);
-                if (tipo == null)
-                {
-                    return NotFound();
-                }
-                return View(tipo);
-            }
-
-            // POST: /Tipo/Edit/5
-            [HttpPost]
-            [ValidateAntiForgeryToken]
-            public async Task<IActionResult> Edit(Tipo tipo)
-            {
-                if (ModelState.IsValid)
-                {
-                    await _repositorio.Modificar(tipo);
-                    return RedirectToAction(nameof(Index));
-                }
-                return View(tipo);
-            }
-
-            // GET: /Tipo/Delete/5
-            public async Task<IActionResult> Delete(int id)
-            {
-                var tipo = await _repositorio.Obtener(id);
-                if (tipo == null)
-                {
-                    return NotFound();
-                }
-                return View(tipo);
-            }
-
-            // POST: /Tipo/Delete/5
-            [HttpPost, ActionName("Delete")]
-            [ValidateAntiForgeryToken]
-            public async Task<IActionResult> DeleteConfirmed(int id)
-            {
-                await _repositorio.Eliminar(id);
-                return RedirectToAction(nameof(Index));
-            }
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Eliminar(int id)
+        {
+            await servicio.Eliminar(id);
+            return NoContent();
         }
     }
 }

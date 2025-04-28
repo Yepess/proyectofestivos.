@@ -1,65 +1,54 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProyectoFestivos.CORE.Repositorios;
+using ProyectoFestivos.CORE.Servicios;
 using ProyectoFestivos.Dominio.Entidades;
 
-namespace ProyectoFestivos.Presentacion.Controllers
+namespace ProyectoFestivos.API.Controllers
 {
-    public class FestivoController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class FestivosController : ControllerBase
     {
-        private readonly IFestivoRepositorio _repositorio;
+        private readonly IFestivoServicio servicio;
 
-        public FestivoController(IFestivoRepositorio repositorio)
+        public FestivosController(IFestivoServicio servicio)
         {
-            _repositorio = repositorio;
+            this.servicio = servicio;
         }
 
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<IEnumerable<Festivo>> ObtenerTodos()
         {
-            var festivos = await _repositorio.ObtenerTodos();
-            return View(festivos);
+            return await servicio.ObtenerTodos();
         }
 
-        public IActionResult Create() => View();
-
-        [HttpPost]
-        public async Task<IActionResult> Create(Festivo festivo)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Festivo>> Obtener(int id)
         {
-            if (ModelState.IsValid)
-            {
-                await _repositorio.Agregar(festivo);
-                return RedirectToAction("Index");
-            }
-            return View(festivo);
-        }
-
-        public async Task<IActionResult> Edit(int id)
-        {
-            var festivo = await _repositorio.Obtener(id);
-            return View(festivo);
+            var festivo = await servicio.Obtener(id);
+            if (festivo == null) return NotFound();
+            return festivo;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Festivo festivo)
+        public async Task<ActionResult<Festivo>> Agregar(Festivo festivo)
         {
-            if (ModelState.IsValid)
-            {
-                await _repositorio.Modificar(festivo);
-                return RedirectToAction("Index");
-            }
-            return View(festivo);
+            var nuevoFestivo = await servicio.Agregar(festivo);
+            return CreatedAtAction(nameof(Obtener), new { id = nuevoFestivo.Id }, nuevoFestivo);
         }
 
-        public async Task<IActionResult> Delete(int id)
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Modificar(int id, Festivo festivo)
         {
-            var festivo = await _repositorio.Obtener(id);
-            return View(festivo);
+            if (id != festivo.Id) return BadRequest();
+            await servicio.Modificar(festivo);
+            return NoContent();
         }
 
-        [HttpPost, ActionName("Delete")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Eliminar(int id)
         {
-            await _repositorio.Eliminar(id);
-            return RedirectToAction("Index");
+            await servicio.Eliminar(id);
+            return NoContent();
         }
     }
 }

@@ -3334,11 +3334,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\WebApplication1\\ProyectoFestivos.Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\WebApplication1\\ProyectoFestivos.Presentacion.csproj",
       "projectName": "ProyectoFestivos.Presentacion",
-      "projectPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\WebApplication1\\ProyectoFestivos.Presentacion.csproj",
+      "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\WebApplication1\\ProyectoFestivos.Presentacion.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3360,17 +3360,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Aplicacion\\ProyectoFestivos.Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Aplicacion\\ProyectoFestivos.Aplicacion.csproj"
+            "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Aplicacion\\ProyectoFestivos.Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Aplicacion\\ProyectoFestivos.Aplicacion.csproj"
             },
-            "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
-              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
+            "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Dominio\\ProyectoFestivos.Dominio.csproj"
             },
-            "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj": {
-              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj"
+            "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Infraestructura.Repositorios\\ProyectoFestivos.Infraestructura.Repositorios.csproj"
             },
-            "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\proyectofestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj"
+            "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\ProyectoFestivos\\ProyectoFestivos.Persistencia\\ProyectoFestivos.Infraestructura.Persistencia.csproj"
             }
           }
         }

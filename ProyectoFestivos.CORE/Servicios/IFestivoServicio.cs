@@ -20,6 +20,7 @@ namespace ProyectoFestivos.CORE.Servicios
         Task<IEnumerable<Festivo>> Buscar(int Tipo, string Dato);
 
         Task<bool> ValidarFestivo(DateTime fecha); // se agrego esta linea para la validacion de las fechas 
+        bool ValidarFestivo(Festivo festivo);
     }
 }
 
